@@ -137,6 +137,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  margin: 0px;
   margin-top: 100px;
   text-align: center;
 }
@@ -148,17 +149,17 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
+  margin: 0px;
   margin-top: 20px;
 }
 .table {
-  margin: 0px;
-  padding: 0px;
   width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0px auto 100px auto;
+  padding: 0px;
 }
 .table__cell {
   margin: 0px;
@@ -168,7 +169,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start
 }
 .table__heading {
   margin: 0px;
@@ -212,6 +213,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 0px;
   margin-top: 70px;
   z-index: 1;
 }
@@ -261,7 +263,6 @@
   font-weight: normal;
 }
 .table_theme_dark {
-  margin: 0px;
   padding: 0px;
   margin: 0px auto 90px auto;
   z-index: 1;
@@ -275,8 +276,7 @@
 }
 .table__heading_theme_dark {
   margin: 0px;
-  padding: 0px;
-  margin-bottom: 20px;
+  padding: 0px;margin-bottom: 20px;
 }
 .table__text_theme_dark {
   margin: 0px;

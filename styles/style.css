@@ -59,7 +59,7 @@
   text-decoration: none;
   color: #2f80ed;
 }
-a:hover {
+.header__link:hover{
   color: red;
 }
 .header__main-illustration {
@@ -230,6 +230,9 @@ a:hover {
   text-decoration: none;
   color: #2f80ed;
 }
+.feynman__link:hover {
+  color: red;
+}
 .feynman__main-pic {
   width: 867px;
   height: 637px;
@@ -316,14 +319,15 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
 }
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .footer__column_content_copyright {
   margin: 0;
   padding: 0;
   flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
 }
 .logo_place_footer {
   margin: 0;
@@ -343,10 +347,7 @@ a:hover {
 .footer__column_content_info {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
-  width: initial;
 }
 .footer__column-heading {
   margin: 0;
@@ -370,14 +371,14 @@ a:hover {
   color: #fff;
   text-decoration: none;
 }
+.footer__column-link:hover {
+  color:red;
+}
 .footer__column_content_social {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   text-decoration: none;
-  width: initial;
 }
 .footer__social-icon {
   margin: 0;
